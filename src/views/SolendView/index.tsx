@@ -12,7 +12,7 @@ export const SolendView: FC = ({}) => {
 
   return (
     <div className="container mx-auto max-w-6xl p-8 2xl:px-0">
-      <div className={styles.container}>
+      <div className="container">
         <div className="navbar mb-2 shadow-lg bg-neutral text-neutral-content rounded-box">
           <div className="flex-none">
             <button className="btn btn-square btn-ghost">
