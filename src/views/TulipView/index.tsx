@@ -53,7 +53,7 @@ export const TulipView: FC = ({ }) => {
           There are always risks in any protocol, TULIP offers at least 3 different options with different risks vs rewards strategies
 
           Which of the following best describes the risks on TULIP
-          It’s on Solana so the risks are low
+          It{'’'}s on Solana so the risks are low
           TULIP is a money printing machine with low risks
           TULIP offers lending with lower risk, Auto Vaults with medium risks and Leveraged Farming with high risks
 
@@ -68,13 +68,13 @@ export const TulipView: FC = ({ }) => {
           Question 4
           Which of the following are possible outcomes on TULIP?
           High risks offer great APY but can result in liquidation
-          High APY = Lambo (Lamborghini money on way) 
-APY > 100% is safe as a bank
+          High APY = Lambo (Lamborghini money on way)
+          APY &gt; 100% is safe as a bank
 
           Question 5
           What is a good idea when investing in any protocol?
           Work hard as that always makes the most money
-          Be smart and invest wisely, don’t risk anything you can’t afford to loose
+          Be smart and invest wisely, don{'’'}t risk anything you can{'’'}t afford to loose
           TULIP is a great DAPP, i am going all in
 
         </div>
