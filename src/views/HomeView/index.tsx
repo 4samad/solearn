@@ -36,11 +36,7 @@ export const HomeView: FC = ({}) => {
                   Quizzes to Earn NFTs
                 </h1>
                 <p className="mb-5">
-                  Grab your NFT answering while learning 
-                  about Solana ecosystem and projects.
-                </p>
-                <p className="mb-5">
-                  Built with <SolanaLogo />
+                  Earn to Learn <SolanaLogo/>
                 </p>
                 <p>
                   {publicKey ? <>Your address: {publicKey.toBase58()}</> : null}
@@ -49,34 +45,38 @@ export const HomeView: FC = ({}) => {
             </div>
           </div>
 
-          {/*
           <div className="max-w-4xl mx-auto">
-            <h1 className="mb-5 pb-8 text-5xl">Templates:</h1>
             <ul className="text-left leading-10">
               <li className="mb-5">
-                <Link href="/gallery">
+                <Link href="/solend">
                   <a className="text-4xl font-bold hover:underline">
-                    🏞 -- NFT Gallery
+                  Learn LENDING with SOLEND
                   </a>
                 </Link>
               </li>
               <li className="mb-5">
-                <Link href="/mint">
+                <Link href="/orca">
                   <a className="text-4xl font-bold hover:underline">
-                    🍬 -- Candy Machine Mint UI
+                  Learn about DEX’s with ORCA
                   </a>
                 </Link>
               </li>
-              <li>
-                <Link href="/tweeter">
+              <li className="mb-5">
+                <Link href="/allbridge">
                   <a className="mb-5 text-4xl font-bold hover:underline">
-                    🐦 -- Solana Tweeter
+                  Learn about BRIDGING with ALLBRIDGE
+                  </a>
+                </Link>
+              </li>
+              <li className="mb-5">
+                <Link href="/tulip">
+                  <a className="mb-5 text-4xl font-bold hover:underline">
+                  Learn YEILD FARMING with TULIP 
                   </a>
                 </Link>
               </li>
             </ul>
           </div>
-          */}
         </div>
       </div>
     </div>
